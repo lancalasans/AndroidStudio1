@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Gas App</title>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <section>
+    <div class="report">
+
+      <img src="img/statistics.png" alt="Relatórios" onclick="consulta()">
+    </div>
+
+  <div class="container">
+    <center>
+      <div id="output"></div>
+    </center>
+    <div class="avatar">
+      <img src="img/avatar.png" alt="">
+    </div>
+  </div>
+  <div class="container">
+    <input type="text" id="input" placeholder="Responda Aqui...">
+  </div>
+
+
+</section>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+    <script>
+      function consulta() {
+        Marcus.consultaTodos();
+      }
+    </script>
+
+
+</body>
+
+</html>
